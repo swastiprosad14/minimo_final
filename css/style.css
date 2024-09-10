@@ -1,0 +1,255 @@
+/* link font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* link font */
+/* common css start */
+body{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    margin: 0;
+    padding: 0;
+}
+/* common css end */
+/* header start */
+header{
+padding: 30px 0;
+border-bottom: 1px solid;
+}
+.container{
+width: 90%;
+margin: 0 auto;
+/* border: 1px solid green; */
+overflow: hidden;
+}
+.logo{
+width: 11%;
+/* border: 1px solid red; */
+float: left;
+margin-top: 10px;
+}
+
+.logo a img{
+width: 100%;
+}
+.menu{
+width: 65%;
+/* border: 1px solid red; */
+float: right;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 100px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #626262;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{
+    color: #908783;
+    border-bottom: 1px solid #626262;
+}
+/* header end */
+/* banner start */
+.banner{
+
+}
+.b_img{
+
+}
+.b_img img{
+    width: 100%;
+}
+/* banner end */
+/* getaway start */
+.getaway{
+    padding: 100px 0 30px;
+}
+.container_2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid coral; */
+}
+.g_content{
+
+}
+.c_light{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+.c_title{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0 30px;
+}
+.c_text{
+    line-height: 24px;
+    margin: 0;
+}
+.g_link{
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+/* getaway end */
+/* blog start */
+.blog{
+padding-bottom: 100px;
+}
+.sb_item{
+margin-top: 70px;
+box-sizing: border-box;
+width: 47%;
+/* border: 1px solid red; */
+float: left;
+}
+.sb_item:nth-child(even){
+    margin-left: 6%;
+}
+.sb_img{
+padding-bottom: 30px;
+}
+.sb_img img{
+width: 100%;
+}
+/* blog end */
+/* news start */
+.news{
+background-color: #F0F0F0;
+/* min-height: 285px; */
+}
+.sign_up{
+text-align: center;
+padding: 75px 0;
+}
+.sign_up h2{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+position: relative;
+width: 400px;
+/* border: 5px solid green; */
+margin: 0 auto;
+}
+.s_form input{
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+position: absolute;
+background-color: transparent;
+border: none;
+cursor: pointer;
+top: 16px;
+right: 0;
+}
+.s_form button:focus{
+    outline: none;
+}
+.s_form button img{
+
+}
+/* news end */
+/* load button start */
+.blog_2{
+
+}
+.load{
+text-align: center;
+padding-top: 100px;
+}
+.load>button{
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #626262;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    
+}
+.load>button:hover{
+    background-color: #626262;
+    color: white;
+    cursor: pointer;
+    transition: .33s linear;
+}
+/* load button end */
+/* footer start */
+footer{
+background-color: #F0F0F0;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.f_pages{
+float: left;
+}
+.f_pages ul{
+
+}
+.f_pages ul li{
+    float: left;
+    list-style: none;
+    margin-right: 18px;
+}
+.f_pages ul li a{
+text-decoration: none;
+font-family: "Playfair Display", serif;
+font-size: 16px;
+font-weight: 400;
+color: #626262;
+}
+.f_social{
+float: right;
+}
+.f_social ul{
+
+}
+.f_social ul li{
+float: left;
+margin-right: 18px;
+list-style: none;
+}
+.f_social ul li span{
+font-family: "Playfair Display", serif;
+font-size: 16px;
+font-weight: 400;
+color: #626262;
+}
+.f_social ul li a{
+
+}
+/* footer end */
